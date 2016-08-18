@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-<!--simplicity is sexy-->
+<!-- simplicity is sexy -->
   <head>
     <title> Riten Debnath | Homepage </title>
-    <!--meta Contents -->
+    <!-- meta contents -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'/>
     <meta name="viewport"     content="width=device-width, initial-scale=1">
     <meta property="og:type"  content="profile">
     <meta property="og:url"   content="http://ritendebnath.github.io/">
@@ -14,101 +13,83 @@
     <meta property="og:image" content="https://lh3.googleusercontent.com/-1nBbvd5QLU0/AAAAAAAAAAI/AAAAAAAAVfg/IYpEZZhbnxs/s300-c/photo.jpg">
     <meta property="fb:profile_id"  content="100003007924305">
     <meta property="og:description" content="engineering student, bibliophile, nyctophile, explorer, webaholic, musicmaniac">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="engineering student, bibliophile, nyctophile, explorer, webaholic, musicmaniac" />
-    <meta http-equiv="author" content="Riten Debnath"/>
-    <link rel="apple-touch-icon" href="http://i.imgur.com/vfsUfYn.png">
+    <meta name="description" content="engineering student, bibliophile, nyctophile, explorer, webaholic, musicmaniac">
+    <meta name="author"      content="Riten Debnath">
+    <link rel="apple-touch-icon" href="http://imgur.com/YmLtfAa.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-
     <!--CSS contents-->
     <style>
       body {
-        height: 100%;
-        margin: 0;
-        text-align: center;
-        width: 100%;
-        padding-top: 3%;
+        font: 18px/1.2 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        padding: 15px;
+        color: #222;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
       }
       img {
-        border-radius: 50%;
         display: block;
         margin: auto;
-        border: 1px solid #ddd;
         padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
         box-shadow: 1px 3px 8px #222;
       }
       h1 {
+        font-size: 32px;
         text-align: center;
-        font: 32px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        color: #1A237E;
+        color: #1a237e;
       }
       h2 {
       	text-align: left;
         font: 25px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: #1A237E;
-      }
-      .blurb {
-        font-size: 19px;
-        text-align: centre;
-        text-align: justify;
+  	  }
+      .container {
+        max-width: 600px;
         margin: auto;
-        width: 50%;
-        padding: 5px;
+        padding-top: 3%;
+        text-align: justify;
       }
       .soc {
-        overflow: hidden;
         margin: 0;
         padding: 0;
         list-style: none;
-      }
-      .soc li {
-        display: inline-block;
-      }
-      .soc li a {
-        text-decoration: none;
         text-align: center;
-        position: relative;
-        z-index: 1;
       }
-      .soc li:not(:last-child) { margin-right: 22px }
-      .soc li a:hover {
-        opacity: .7;
+      .soc li { display: inline-block }
+      .soc li:not(:last-child) { margin-right: 15px }
+      .soc li a:hover { opacity: .7 }
+      .ico {
+        display: block;
+        width: 48px;
+        height: 48px;
+        background: url(http://i.imgur.com/ng0ApIo.png) no-repeat;
       }
-      .soc svg {
-        width: 40px;
-        height: 40px;
-      }
-      .soc svg path {  fill: #222 }
+      .soc-facebook  { background-position: 0 0 }
+      .soc-twitter   { background-position: 0 -48px }
+      .soc-pinterest { background-position: 0 -96px }
+      .soc-instagram { background-position: 0 -144px }
+      .tilt { transition: all 0.5s ease }
+      .tilt:hover { transform: rotate(-5deg) }
     </style>
   </head>
   <!--body contents-->
   <body>
-    <img src="http://i.imgur.com/LMq9fBu.jpg" width="160" height="160">
     <div class="container">
-      <div class="blurb">
-        <h1>Hey, I'm Riten!</h1>
-        <p>Currently I&#146;m pursuing Computer Science and Engineering.</p>
-        <p>I enjoy traveling, exploring, learning new things and building further on what I&#146;ve learned by practical experimentation. Also I&#146;m kinda serious webaholic, avid reader and love watching geek movies.</p>
-        <p>I believe in sharing what I know and keep on searching ideas for frugal innovations based on real life problems. I believe in 3C &#34; collecting, connecting and creating &#34; :) </p>
-        <p> Thank you so much for stopping by. For any chit chat do drop me a line at: <strong>ritendebnath [at] gmail [dot] com</strong></p>
-        <h2><strong>Let&#146;s get in touch:</strong></h2>
-      </div><!-- /.blurb -->
+      <img class="tilt" src="https://lh3.googleusercontent.com/-1nBbvd5QLU0/AAAAAAAAAAI/AAAAAAAAVfg/IYpEZZhbnxs/s160-c/photo.jpg" width="140" height="140" alt="Riten Debnath">
+      <h1>Hey, I'm Riten!</h1>
+      <p>Currently I&#146;m pursuing Computer Science and Engineering.</p>
+      <p>I love traveling, exploring, learning new things and building further on what I&#146;ve learned by practical experimentation. Also I&#146;m kind a serious webaholic, avid reader and love watching geek movies.</p>
+      <p>I believe in sharing what I know and keep on searching ideas for frugal innovations based on real life problems. 3 C&#146;s of mine so far &#34; collecting connecting and creating &#34; :) </p>
+      <p> Thank you so much for stopping by. For any chit chat do drop me a line at: <strong>ritendebnath [at] gmail [dot] com</strong></p>
+      <h2><strong>Let&#146;s get in touch:</strong></h2>
+      <!--social icons  -->
+      <ul class="soc">
+        <li><a class="ico soc-facebook" href="https://www.facebook.com/ritend11" target="_blank"></a></li>
+        <li><a class="ico soc-twitter" href="https://twitter.com/ritendebnath" target="_blank"></a></li>
+        <li><a class="ico soc-pinterest" href="https://pinterest.com/ritendebnath" target="_blank"></a></li>
+        <li><a class="ico soc-instagram" href="https://www.instagram.com/ritend11" target="_blank"></a></li>
+      </ul>
     </div><!-- /.container -->
-    <!--social icons  -->
-    <ul class="soc">
-      <li><a class="soc-facebook" href="https://www.facebook.com/ritend11" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,2A10,10,0,1,1,2,12,10,10,0,0,1,12,2Zm0-2A12,12,0,1,0,24,12,12,12,0,0,0,12,0ZM10,10H8v2h2v6h3V12h1.82L15,10H13V9.17c0-.48.1-0.67,0.56-0.67H15V6H12.6C10.8,6,10,6.79,10,8.31V10Z"/></svg>
-      </a></li>
-      <li><a class="soc-twitter" href="https://twitter.com/ritendebnath" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,2A10,10,0,1,1,2,12,10,10,0,0,1,12,2Zm0-2A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm6.5,8.78a4.93,4.93,0,0,1-1.41.39A2.47,2.47,0,0,0,18.17,7.8a4.93,4.93,0,0,1-1.56.6,2.46,2.46,0,0,0-4.19,2.24A7,7,0,0,1,7.34,8.07a2.47,2.47,0,0,0,.76,3.29A2.46,2.46,0,0,1,7,11.05,2.46,2.46,0,0,0,9,13.5a2.47,2.47,0,0,1-1.11,0,2.47,2.47,0,0,0,2.3,1.71,5,5,0,0,1-3.65,1,7,7,0,0,0,10.77-6.22A5,5,0,0,0,18.5,8.78Z"/></svg>
-      </a></li>
-      <li><a class="soc-instagram soc-icon-last" href="https://www.instagram.com/ritend11" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,2.16c3.2,0,3.58,0,4.85.07,3.25,0.15,4.77,1.69,4.92,4.92,0.06,1.27.07,1.65,0.07,4.85s0,3.58-.07,4.85c-0.15,3.23-1.66,4.77-4.92,4.92-1.27.06-1.64,0.07-4.85,0.07s-3.58,0-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.17,15.58,2.16,15.21,2.16,12s0-3.58.07-4.85C2.38,3.92,3.9,2.38,7.15,2.23,8.42,2.18,8.8,2.16,12,2.16ZM12,0C8.74,0,8.33,0,7.05.07c-4.36.2-6.78,2.62-7,7C0,8.33,0,8.74,0,12s0,3.67.07,4.95c0.2,4.36,2.62,6.78,7,7C8.33,24,8.74,24,12,24s3.67,0,4.95-.07c4.35-.2,6.78-2.62,7-7C24,15.67,24,15.26,24,12s0-3.67-.07-4.95c-0.2-4.35-2.62-6.78-7-7C15.67,0,15.26,0,12,0Zm0,5.84A6.16,6.16,0,1,0,18.16,12,6.16,6.16,0,0,0,12,5.84ZM12,16a4,4,0,1,1,4-4A4,4,0,0,1,12,16ZM18.41,4.15a1.44,1.44,0,1,0,1.44,1.44A1.44,1.44,0,0,0,18.41,4.15Z" transform="translate(0)"/></svg>
-      </a></li>
-      <li><a class="soc-pinterest" href="https://pinterest.com/ritendebnath" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0Zm0,29.86a13.92,13.92,0,0,1-4.11-.62,15.6,15.6,0,0,0,1.73-3.63l0.86-3.29a3.71,3.71,0,0,0,3.17,1.59c4.18,0,7.19-3.84,7.19-8.62,0-4.58-3.74-8-8.54-8-6,0-9.16,4-9.16,8.39,0,2,1.08,4.56,2.81,5.37,0.26,0.13.4,0.07,0.46-.19s0.28-1.13.39-1.58a0.43,0.43,0,0,0-.09-0.4,5.38,5.38,0,0,1-1-3.16,6,6,0,0,1,6.26-6,5.47,5.47,0,0,1,5.79,5.64c0,3.75-1.89,6.35-4.36,6.35a2,2,0,0,1-2.05-2.51c0.39-1.65,1.15-3.43,1.15-4.61a1.74,1.74,0,0,0-1.76-1.95c-1.39,0-2.51,1.44-2.51,3.37A5,5,0,0,0,12.63,18S11.25,23.84,11,24.92a13.28,13.28,0,0,0-.05,4,13.84,13.84,0,1,1,5,1h0Z"/></svg>
-      </a></li>
-    </ul>
   </body>
 </html>
